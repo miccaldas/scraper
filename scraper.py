@@ -65,7 +65,7 @@ class Scraper:
             f.write("\n")
             f.write("        for item in data:\n")
             f.write(
-                "            info = {'title': item[0], 'author': item[1], 'date_altered': item[2], 'content': item[3]}"
+                "            info = {'title': i:wtem[0], 'author': item[1], 'date_altered': item[2], 'content': item[3]}"
             )
             f.write("\n")
             f.write("        yield info")
